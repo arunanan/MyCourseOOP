@@ -1,0 +1,44 @@
+1)version control is a solution that allows you to:
+   Revert to an older version of your project in case you think that you have messed things up
+   Keep track of changes or additions to the project files by the various team members
+
+2) Subversion is a version control system based on the centralised version Control System. In Subversion,
+there is only one repository filesystem, and it is completely dependent on the availability of a single server.
+Hence, it falls into the category of centralised filesystem
+
+3)In Subversion, there is only one repository filesystem, and it is completely dependent on the functionality of a single server.
+ In Subversion, you cannot do any work on your project without a network connection;
+ if anything happens to the central filesystem , you may lose your data and the history of the changes.
+ These are all the disadvantages of Subversion.
+
+4) Git is faster than Mercurial for network operations such as downloading and uploading project files to the file server.
+Git is used very widely by developer’s all across the globe and Git is more powerful than Mercurial for all small/big projects.
+
+5)  Git is a distributed version control system and a tool to manage your project source code history.
+   Git will help you keep track of the different versions of your project, but it tracks those changes
+   locally on your computer; only you can see your project code and all the changes and revisions made to your project code.
+
+  GitHub, on the other hand, is a web-based, Git file hosting service that enables you to upload your
+  project code, along with its changes and revisions, so you can showcase/share your projects and files with others.
+
+6)A repository is a storage space where all your files, their revision history, and anything related to the project can be stored.
+This can be either local to your system or in some storage space on an online host.
+
+7) Files in GitHub can be in any of the following three states:
+
+   Modified: In this state, modifications are made to a file or files, and the changes are still on our local system.
+
+   Staged: In this stage, the changed files are added to the the staging area, which means the files will now become a
+   part of your development history.
+
+   Committed: In this stage, we make a record or take a snapshot of the files we have added to the staging area or our
+    development history.
+
+8)Each commit is identified in Git by a unique ID, also known as SHA. Every time a commit is made in Git,
+that commit is assigned a unique ID or SHA. Using this unique ID, one commit can be distinguished from other commits.
+
+9) git add: This command will add your file with a name, e.g. file1, to the staging area, that is, your file will now become a part of your development history.
+
+
+   git status: This command will display the state of the working directory and the staging area. In other words,
+   it lets you see the changes that have been staged and the changes that haven’t been added to the staging area.
